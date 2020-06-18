@@ -3,25 +3,31 @@
 
 {% block content %}
 <!-- Slider -->
-<section id="hero-area">
+<section id="hero-area" class="kili">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="block wow fadeInUp" data-wow-delay=".3s">
                     <section class="cd-intro">
                         <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
-                            <span>HI, MY NAME  IS KEVIN KILI & I AM A</span><br>
+                            <span>HI, MY NAME IS KEVIN KILI & I AM A</span><br>
                             <span class="cd-words-wrapper">
                                 <b class="is-visible">DESIGNER</b>
                                 <b>WEB DEVELOPER</b>
                                 <b>ENTERPRENUER</b>
                             </span>
                         </h1>
+                        <!-- <div class="display-4 text-center animated slideInLeft" data-wow-delay=".3s" data-wow-duration="500ms" id="kili">
+                            <img src="{% static 'images/me.JPG' %}" class="img-responsive" alt="" style="text-align: center;border-radius: 50%; width: 30%; height: 30%; ">
+                        </div> -->
                     </section>
                     <h2 class="wow fadeInUp animated" data-wow-delay=".6s">
-                        With 1 year experience, I've occupied many roles including graphic designer,<br> web designer and developer. This site showcases some of my work.
+                        With 1 year experience, I've occupied many roles including graphic designer,<br> web designer
+                        and developer. This site showcases some of my work.
                     </h2>
-                    <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works">View Works</a>
+
+                    <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green"
+                        data-wow-delay=".9s" href="#works" data-section="#works">View Works</a>
                 </div>
             </div>
         </div>
@@ -36,12 +42,15 @@
             <div class="col-md-6 col-sm-6">
                 <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
                     <h2>ABOUT ME</h2>
-                    <p>I'm a Full Stack Web Developer from Nairobi, Kenya. Am also a freelance graphic designer with extensive experience in the information technology and services industry. I have a knack for user experience and beautiful interfaces with a focus in becoming a fully-fledged Fullstack Developer.</p>
+                    <p>I'm a Full Stack Web Developer from Nairobi, Kenya. Am also a freelance graphic designer with
+                        extensive experience in the information technology and services industry. I have a knack for
+                        user experience and beautiful interfaces with a focus in becoming a fully-fledged Fullstack
+                        Developer.</p>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6">
-                <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                    <img src="{% static 'images/about.jpeg' %}" class="img-responsive" alt="">
+                <div class="display-4 text-center animated slideInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <img src="{% static 'images/me.JPG' %}" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
@@ -54,7 +63,8 @@
     <div class="container">
         <div class="section-heading">
             <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Work</h1>
-            <p class="wow fadeInDown" data-wow-delay=".5s">Below are some of the projects that I have gotten opportunity to work on.</p>
+            <p class="wow fadeInDown" data-wow-delay=".5s">Below are some of the projects that I have gotten opportunity
+                to work on.</p>
         </div>
         <div class="row">
             {% for project in projects %}
@@ -91,7 +101,8 @@
         <div class="section-heading">
             <h1 class="title wow fadeInDown" data-wow-delay=".3s">What I Can Do</h1>
             <p class="wow fadeInDown" data-wow-delay=".5s">
-                My extensive experience has enabled me to pick a lot of skills. Below,<br> are the main ones that I am proficient in.
+                My extensive experience has enabled me to pick a lot of skills. Below,<br> are the main ones that I am
+                proficient in.
             </p>
         </div>
         <div class="row">
@@ -104,7 +115,8 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Graphic Design</h4>
-                        <p>I do graphic designing using mainly Adobe Photoshop and Adobe Illustrator. I also have experience in Corel Draw and in printing.</p>
+                        <p>I do graphic designing using mainly Adobe Photoshop and Adobe Illustrator. I also have
+                            experience in Corel Draw and in printing.</p>
                     </div>
                 </div>
             </div>
@@ -117,7 +129,9 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Web Design & Development</h4>
-                        <p>I use pen and paper to conceptualize web wireframes and Figma to create prototypes. I develop web applications using Django for backend and Angular for frontend. I can also do WordPress websites.</p>
+                        <p>I use pen and paper to conceptualize web wireframes and Figma to create prototypes. I develop
+                            web applications using Django for backend and Angular for frontend. I can also do WordPress
+                            websites.</p>
                     </div>
                 </div>
             </div>
@@ -130,7 +144,8 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Social Media Marketing</h4>
-                        <p>I use Buffer to manage social media pages, create posts for different social media pages, reply to messages and monitor performance of social media pages.</p>
+                        <p>I use Buffer to manage social media pages, create posts for different social media pages,
+                            reply to messages and monitor performance of social media pages.</p>
                     </div>
                 </div>
             </div>
